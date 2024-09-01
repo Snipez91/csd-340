@@ -1,0 +1,40 @@
+/* Apply CSS grid with three columns for the 3 side-by-side divs */
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10%;
+}
+
+/* Center the h1 text */
+h1 {
+    text-align: center;
+    color: rgba(34, 34, 255, 0.8); /* Optional: Apply a blue color with some transparency */
+}
+
+/* Center the h3 text (title for each of the image gallery items) */
+h3 {
+    text-align: center;
+    color: rgba(255, 69, 0, 0.8); /* Optional: Apply an orange-red color with some transparency */
+}
+
+/* Center the image in the div */
+figure {
+    text-align: center;
+}
+
+/* Adjust the images to be the same size */
+figure img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Adjust this value as needed */
+    max-height: 400px; /* Adjust this value as needed */
+    object-fit: cover; /* Ensure images maintain their aspect ratio while fitting within the specified dimensions */
+}
+
+/* Apply italic style to figcaption and set the font-size to .75em */
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgba(0, 128, 0, 0.8); /* Optional: Apply a green color with some transparency */
+}
