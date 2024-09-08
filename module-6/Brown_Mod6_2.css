@@ -1,0 +1,90 @@
+/* Header */
+header {
+  background-color: #4CAF50; /* Choose appropriate color */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* h1 */
+h1 {
+  font-weight: 400;
+}
+
+/* Navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #333; /* Choose appropriate color */
+  border-bottom: solid 15px #ccc; /* Choose appropriate color */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white; /* Or choose another color */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd; /* Choose appropriate hover color */
+  color: black; /* Choose appropriate hover color */
+}
+
+/* Container div */
+.container {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+}
+
+/* Card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Card Title */
+.card-title {
+  text-align: center;
+  font-size: 2em;
+  color: #333; /* Choose appropriate color */
+  font-weight: 400;
+}
+
+/* Card Content */
+.card-content {
+  padding: 2px 16px;
+}
+
+/* Footer */
+footer {
+  background-color: #4CAF50; /* Same color as header */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: white; /* Or another appropriate color */
+  font-weight: 400;
+  float: right;
+  padding-right: 10px;
+  font-style: italic;
+}
+
+footer a {
+  text-decoration: none;
+  color: white; /* Or another appropriate color */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
